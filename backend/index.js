@@ -19,10 +19,6 @@ app.use(
 
 app.use(express.json())
 
-app.get('/', function (req, res) {
-    return "TEST";
-  });
-
 const connect = async () => {
     try {
         await mongoose.connect(process.env.MONGO)
