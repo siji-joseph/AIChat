@@ -34,7 +34,7 @@ const imagekit = new ImageKit({
     privateKey: process.env.IMAGE_KIT_PRIVATECKEY
 });
 
-app.get("/api/test", (req, res) => {
+app.get("/", (req, res) => {
     console.log("Success")
     res.send("Success")
 })
