@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "nodemon --env-file .env index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "[my-framework] build --output public"
+    "test": "echo \"Error: no test specified\" && exit 1"   
   },
   "keywords": [],
   "author": "",
