@@ -12,7 +12,9 @@ const app = express();
 app.use(
     cors({
         origin: "*",
-        // origin:process.env.CLIENT_URL,
+        origin:process.env.CLIENT_URL,
+        // origin: 'https://client-81zoz60wv-sijis-projects-7a83c409.vercel.app',
+        methods: ['GET', 'POST'],
         credentials: true
     })
 )
